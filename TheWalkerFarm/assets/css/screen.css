@@ -89,7 +89,7 @@ a {
   text-decoration: none;
 }
 a:hover, a:focus, a:active {
-  color: #00c59d;
+  color: #fd6347;
 }
 
 /* ::Import styles */
@@ -336,13 +336,25 @@ input[type="checkbox"]:focus {
   padding: 6em 20%;
   text-align: left;
   overflow-y: auto;
+  text-align: middle;
 }
 .cd-modal h1 {
   font-size: 4rem;
   font-weight: 700;
-  margin-top: 4em;
+  margin-top: 3em;
   margin-bottom: 0;
-  color: #00c59d;
+  color: #fd6347;
+}
+.cd-modal h1:before {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  height: 100px;
+  width: 100px;
+  background-image: url(../images/works-gears.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
 }
 .cd-modal p {
   margin-top: .5em;
@@ -383,7 +395,7 @@ input[type="checkbox"]:focus {
   font-size: 18px;
   letter-spacing: 1px;
   white-space: nowrap;
-  background-color: #00c59d;
+  background-color: #fd6347;
   background-image: url(../images/popup.svg);
   background-size: 25px auto;
   background-repeat: no-repeat;
@@ -438,7 +450,7 @@ input[type="checkbox"]:focus {
   height: 100px;
   width: 100px;
   border-radius: 50%;
-  background: rgba(0, 197, 157, 0.5) url(../images/cd-icon-close.svg) no-repeat center center;
+  background: rgba(253, 99, 71, 0.5) url(../images/cd-icon-close.svg) no-repeat center center;
   /* image replacement */
   overflow: hidden;
   text-indent: 100%;
@@ -522,8 +534,9 @@ input[type="checkbox"]:focus {
 }
 
 .play {
-  margin-top: 40%;
-  display: block;
+  margin-top: 42%;
+  margin-left: 40%;
+  display: inline-block;
 }
 .play img {
   display: block;
@@ -533,7 +546,7 @@ input[type="checkbox"]:focus {
 }
 
 .bg {
-  background-image: url(../images/factory.jpg);
+  background-image: url(../images/walker.jpg);
   background-size: auto 110%;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -557,7 +570,7 @@ input[type="checkbox"]:focus {
 .video-info .title {
   display: block;
   height: 600px;
-  background-image: url(../images/works-kiosk-ui-factories.png);
+  background-image: url(../images/works-kiosk-ui-walker.png);
   background-size: 115% auto;
   background-position: 50% 50%;
   background-repeat: no-repeat;
